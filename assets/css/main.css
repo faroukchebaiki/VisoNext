@@ -76,12 +76,12 @@
 
   /* Gradient text */
   .gradient-text {
-    @apply bg-gradient-to-r from-primary-500 via-accent-500 to-secondary-500 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-primary-700 via-primary-500 to-secondary-600 bg-clip-text text-transparent;
   }
 
   /* Gradient backgrounds */
   .gradient-primary {
-    @apply bg-gradient-to-r from-primary-600 to-primary-400;
+    @apply bg-gradient-to-r from-primary-800 to-primary-600;
   }
 
   .gradient-secondary {
@@ -89,15 +89,15 @@
   }
 
   .gradient-accent {
-    @apply bg-gradient-to-r from-accent-600 to-accent-400;
+    @apply bg-gradient-to-r from-accent-700 to-accent-500;
   }
 
-  .gradient-purple-blue {
-    @apply bg-gradient-to-br from-primary-600 via-accent-500 to-secondary-600;
+  .gradient-corporate {
+    @apply bg-gradient-to-br from-primary-900 via-primary-700 to-secondary-600;
   }
 
   .gradient-animated {
-    @apply bg-gradient-to-r from-primary-600 via-accent-500 to-secondary-600 bg-300% animate-gradient;
+    @apply bg-gradient-to-r from-primary-800 via-primary-600 to-secondary-600 bg-300% animate-gradient;
   }
 
   /* Hover lift effect */

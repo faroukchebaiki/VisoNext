@@ -12,6 +12,9 @@ import '~/assets/css/main.css'
 useHead({
   titleTemplate: (titleChunk) => {
     return titleChunk ? `${titleChunk} | VisoNext Corporation` : 'VisoNext Corporation | Innovative Solutions for Modern Businesses'
-  }
+  },
+  link: [
+    { rel: 'icon', type: 'image/png', href: '/favicon.png' }
+  ]
 })
 </script>

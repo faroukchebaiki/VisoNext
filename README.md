@@ -89,7 +89,7 @@ All sections leverage the shared design system and motion directives for cohesiv
 
 - **Typography:** Inter (300–900 weights)
 - **Color System:** Purple/blue gradients with accent pink highlight
-- **Utilities:** `.glass`, `.gradient-text`, `.hover-lift`, `.gradient-purple-blue`, `.gradient-animated`
+- **Utilities:** `.glass`, `.gradient-text`, `.hover-lift`, `.gradient-corporate`, `.gradient-animated`
 - **Dark Mode:** Class-based toggles with CSS variables for both themes
 - **Motion:** Default fade/slide animations + floating hero card
 

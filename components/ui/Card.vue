@@ -46,7 +46,7 @@ const cardClasses = computed(() => {
   const variants = {
     default: 'bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 shadow-md',
     glass: 'glass dark:glass-dark shadow-xl',
-    gradient: 'gradient-purple-blue text-white shadow-2xl'
+    gradient: 'gradient-corporate text-white shadow-2xl'
   }
   
   const hoverEffect = props.hover ? 'hover-lift hover:shadow-2xl' : ''

@@ -112,7 +112,7 @@
               :delay="index * 100"
             >
               <div class="flex items-start">
-                <div class="w-12 h-12 rounded-lg gradient-purple-blue flex items-center justify-center mr-4 flex-shrink-0">
+                <div class="w-12 h-12 rounded-lg gradient-corporate flex items-center justify-center mr-4 flex-shrink-0">
                   <Icon :name="info.icon" class="h-6 w-6 text-white" />
                 </div>
                 <div>

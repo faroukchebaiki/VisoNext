@@ -24,7 +24,7 @@
         >
           <div class="text-center">
             <div
-              class="w-16 h-16 rounded-2xl gradient-purple-blue flex items-center justify-center mb-6 mx-auto hover:scale-110 transition-transform"
+              class="w-16 h-16 rounded-2xl gradient-corporate flex items-center justify-center mb-6 mx-auto hover:scale-110 transition-transform"
             >
               <Icon :name="feature.icon" class="h-8 w-8 text-white" />
             </div>

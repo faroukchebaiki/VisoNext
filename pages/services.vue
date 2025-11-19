@@ -43,7 +43,7 @@
               
               <div class="flex-1">
                 <div class="flex items-center mb-4">
-                  <div class="w-12 h-12 rounded-lg gradient-purple-blue flex items-center justify-center mr-4">
+                  <div class="w-12 h-12 rounded-lg gradient-corporate flex items-center justify-center mr-4">
                     <Icon :name="service.icon" class="h-6 w-6 text-white" />
                   </div>
                   <h3 class="text-2xl font-bold">{{ service.title }}</h3>
@@ -99,7 +99,7 @@
             :delay="index * 100"
             class="text-center"
           >
-            <div class="w-16 h-16 rounded-full gradient-purple-blue flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
+            <div class="w-16 h-16 rounded-full gradient-corporate flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
               {{ index + 1 }}
             </div>
             <h3 class="text-xl font-semibold mb-2">{{ step.title }}</h3>

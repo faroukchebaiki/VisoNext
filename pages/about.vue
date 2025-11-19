@@ -50,7 +50,7 @@
               :delay="index * 100"
             >
               <div class="text-center">
-                <div class="w-12 h-12 rounded-full gradient-purple-blue flex items-center justify-center mx-auto mb-4">
+                <div class="w-12 h-12 rounded-full gradient-corporate flex items-center justify-center mx-auto mb-4">
                   <Icon :name="value.icon" class="h-6 w-6 text-white" />
                 </div>
                 <h3 class="font-semibold mb-2">{{ value.title }}</h3>
@@ -86,7 +86,7 @@
             :delay="index * 100"
           >
             <div class="text-center">
-              <div class="w-24 h-24 rounded-full gradient-purple-blue flex items-center justify-center text-white text-3xl font-bold mx-auto mb-4">
+              <div class="w-24 h-24 rounded-full gradient-corporate flex items-center justify-center text-white text-3xl font-bold mx-auto mb-4">
                 {{ member.initials }}
               </div>
               <h3 class="text-xl font-semibold mb-1">{{ member.name }}</h3>

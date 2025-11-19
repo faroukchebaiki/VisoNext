@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 gradient-purple-blue text-white relative overflow-hidden">
+  <section class="py-20 gradient-corporate text-white relative overflow-hidden">
     <!-- Decorative Elements -->
     <div class="absolute inset-0 opacity-10">
       <div class="absolute top-10 left-10 w-72 h-72 bg-white rounded-full blur-3xl"></div>
@@ -20,21 +20,19 @@
         </p>
         <div class="flex flex-col sm:flex-row justify-center gap-4">
           <Button
-            variant="secondary"
+            variant="white"
             size="lg"
             as="NuxtLink"
             to="/contact"
-            class="bg-white text-primary-600 hover:bg-gray-100"
           >
             Get Started Now
             <Icon name="heroicons:arrow-right" class="ml-2 h-5 w-5" />
           </Button>
           <Button
-            variant="outline"
+            variant="outline-white"
             size="lg"
             as="NuxtLink"
             to="/services"
-            class="border-white/30 text-white hover:bg-white/10"
           >
             Explore Our Services
           </Button>

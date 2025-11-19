@@ -39,7 +39,7 @@
 
             <!-- Author -->
             <div class="flex items-center">
-              <div class="w-12 h-12 rounded-full gradient-purple-blue flex items-center justify-center text-white font-bold mr-4">
+              <div class="w-12 h-12 rounded-full gradient-corporate flex items-center justify-center text-white font-bold mr-4">
                 {{ testimonial.initials }}
               </div>
               <div>

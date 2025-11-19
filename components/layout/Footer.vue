@@ -1,5 +1,5 @@
 <template>
-  <footer class="gradient-purple-blue text-white">
+  <footer class="gradient-corporate text-white">
     <div class="container mx-auto px-4 py-16">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
         <!-- Company Info -->

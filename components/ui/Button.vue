@@ -14,7 +14,7 @@
 import { computed } from 'vue'
 
 interface Props {
-  variant?: 'primary' | 'secondary' | 'outline' | 'ghost' | 'gradient'
+  variant?: 'primary' | 'secondary' | 'outline' | 'ghost' | 'gradient' | 'white' | 'outline-white'
   size?: 'sm' | 'md' | 'lg'
   as?: string
   disabled?: boolean
@@ -37,7 +37,9 @@ const buttonClasses = computed(() => {
     secondary: 'bg-secondary-600 text-white hover:bg-secondary-700 shadow-lg hover:shadow-xl',
     outline: 'border-2 border-primary-600 text-primary-600 hover:bg-primary-50 dark:hover:bg-primary-950',
     ghost: 'text-primary-600 hover:bg-primary-50 dark:hover:bg-primary-950',
-    gradient: 'gradient-purple-blue text-white shadow-lg hover:shadow-2xl hover-lift'
+    gradient: 'gradient-corporate text-white shadow-lg hover:shadow-2xl hover-lift',
+    white: 'bg-white text-primary-900 hover:bg-gray-50 shadow-lg hover:shadow-xl',
+    'outline-white': 'border-2 border-white/30 text-white hover:bg-white/10'
   }
   
   const sizes = {
